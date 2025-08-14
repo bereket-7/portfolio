@@ -294,7 +294,7 @@ function ContactSection() {
                     className={`w-full px-4 py-3 bg-secondary-700 border ${
                       errors.name ? "border-red-500" : "border-secondary-600"
                     } rounded-md text-white focus:outline-none focus:ring-2 focus:ring-primary-500`}
-                    placeholder="Amad Dialo"
+                    placeholder="Bereket Honelign"
                   />
                   {errors.name && (
                     <p className="mt-1 text-sm text-red-500">{errors.name}</p>
@@ -317,7 +317,7 @@ function ContactSection() {
                     className={`w-full px-4 py-3 bg-secondary-700 border ${
                       errors.email ? "border-red-500" : "border-secondary-600"
                     } rounded-md text-white focus:outline-none focus:ring-2 focus:ring-primary-500`}
-                    placeholder="dialo@gmail.com"
+                    placeholder="bereket@gmail.com"
                   />
                   {errors.email && (
                     <p className="mt-1 text-sm text-red-500">{errors.email}</p>
