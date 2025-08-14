@@ -107,19 +107,15 @@ function About() {
                   technologies.
                 </p>
                 <p>
-                  I specialize in JavaScript-based technologies, including
-                  React, Node.js, and modern frameworks that enable me to create
-                  fast, responsive, and user-friendly applications. My approach
-                  combines technical expertise with a keen eye for design,
-                  ensuring that the end product not only functions flawlessly
-                  but also delivers an engaging user experience.
-                </p>
-                <p>
-                  Beyond coding, I'm an advocate for best practices in software
-                  development, including clean code, comprehensive testing, and
-                  continuous learning. I believe in staying current with
-                  industry trends and constantly expanding my skill set to
-                  deliver the best solutions for my clients.
+                  I specialize in building modern, high-performance applications
+                  using a blend of backend and frontend technologies. On the
+                  backend, I work with frameworks like Java Spring Boot, Django,
+                  and Laravel to create secure, scalable, and efficient systems.
+                  For the frontend, I use Vue.js, React, and Tailwind CSS to
+                  craft fast, responsive, and visually engaging interfaces. My
+                  approach bridges strong technical architecture with clean,
+                  user-friendly design, ensuring every project is both
+                  functional and delightful to use.
                 </p>
                 <p>
                   When I'm not coding, you can find me exploring new
@@ -168,9 +164,11 @@ function About() {
               <div className="bg-white rounded-lg shadow-lg p-6">
                 <div className="aspect-w-1 aspect-h-1 mb-6">
                   <div className="w-full h-full rounded-full overflow-hidden border-4 border-primary-100">
-                    <div className="w-full h-full bg-gradient-to-br from-primary-600 to-primary-400 flex items-center justify-center text-7xl font-bold text-white">
-                      B
-                    </div>
+                    <img
+                      src="/public/assets/images/profile.png"
+                      alt="Profile"
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                 </div>
 
