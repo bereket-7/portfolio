@@ -106,7 +106,6 @@ function Projects() {
     },
   ];
 
-  // Category options for filter
   const categories = [
     { value: "all", label: "All Projects" },
     { value: "web", label: "Web Development" },
@@ -114,11 +113,9 @@ function Projects() {
     { value: "data", label: "Data Visualization" },
   ];
 
-  // State for filtered projects and active category
   const [filteredProjects, setFilteredProjects] = useState(allProjects);
   const [activeCategory, setActiveCategory] = useState("all");
 
-  // Filter projects based on category
   const handleFilterChange = (category) => {
     setActiveCategory(category);
 

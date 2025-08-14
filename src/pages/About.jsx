@@ -27,7 +27,7 @@ function About() {
       description:
         "Developed responsive websites and web applications for various clients. Focused on creating accessible and user-friendly interfaces.",
       achievements: [
-        "Created 15+ responsive websites for clients across different industries",
+        "Created 5+ responsive websites for clients across different industries",
         "Introduced component-based design system that improved development efficiency",
         "Implemented automated testing that reduced bug reports by 30%",
       ],
@@ -42,6 +42,18 @@ function About() {
         "Developed checkout process that increased conversion rate by 15%",
         "Integrated payment gateway solutions including Stripe and PayPal",
         "Built responsive email templates that improved marketing campaign engagement",
+      ],
+    },
+    {
+      company: "Ohio University Dev Team",
+      position: "Remote Full Stack Developer",
+      period: "2023 - 2024",
+      description:
+        "Led development of enterprise web applications using Java, Web developement.",
+      achievements: [
+        "Implemented microservices architecture that improved scalability",
+        "tested and optimized application performance, reducing load times by 30%",
+        "Focused on creating accessible and user-friendly interfaces",
       ],
     },
   ];
@@ -174,10 +186,10 @@ function About() {
                       Email
                     </h3>
                     <a
-                      href="mailto:bereket@example.com"
+                      href="mailto:berekethonelign2@gmail.com"
                       className="text-primary-600 hover:underline"
                     >
-                      bereket@example.com
+                      berekethonelig2@gmail.com
                     </a>
                   </div>
                   <div>
@@ -185,7 +197,7 @@ function About() {
                       Role
                     </h3>
                     <p className="text-secondary-900 font-medium">
-                      Full Stack Developer
+                      Software Engineer
                     </p>
                   </div>
                   <div>
@@ -193,7 +205,7 @@ function About() {
                       Location
                     </h3>
                     <p className="text-secondary-900 font-medium">
-                      San Francisco, CA
+                      Addis Ababa, Ethiopia
                     </p>
                   </div>
                   <div>
@@ -212,7 +224,7 @@ function About() {
                   </h3>
                   <div className="flex space-x-3">
                     <a
-                      href="https://github.com/"
+                      href="https://github.com/bereket-7"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-secondary-700 hover:text-primary-600 transition"
@@ -227,7 +239,7 @@ function About() {
                       </svg>
                     </a>
                     <a
-                      href="https://linkedin.com/"
+                      href="https://linkedin.com/bereket-honelign-330b55220"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-secondary-700 hover:text-primary-600 transition"
