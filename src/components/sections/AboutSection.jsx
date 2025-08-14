@@ -32,8 +32,12 @@ function AboutSection() {
               transition={{ duration: 0.6 }}
               className="rounded-lg overflow-hidden shadow-xl"
             >
-              <div className="w-full aspect-w-4 aspect-h-5 bg-gradient-to-br from-primary-600 to-primary-400 flex items-center justify-center text-8xl font-bold text-white">
-                B
+              <div className="w-full aspect-w-4 aspect-h-5">
+                <img
+                  src="/public/assets/images/side_pic.png"
+                  alt="Profile"
+                  className="w-full h-full object-cover"
+                />
               </div>
             </motion.div>
 
