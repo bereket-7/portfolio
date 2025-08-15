@@ -303,24 +303,24 @@ function Footer() {
             &copy; {currentYear} Bereket. All rights reserved.
           </p>
           <div className="mt-4 md:mt-0 flex flex-wrap gap-4">
-            <a
-              href="#"
+            <Link
+              to="/privacy-policy"
               className="text-sm text-gray-400 hover:text-primary-400 transition"
             >
               Privacy Policy
-            </a>
-            <a
-              href="#"
+            </Link>
+            <Link
+              to="/terms-of-service"
               className="text-sm text-gray-400 hover:text-primary-400 transition"
             >
               Terms of Service
-            </a>
-            <a
-              href="#"
+            </Link>
+            <Link
+              to="/cookie-policy"
               className="text-sm text-gray-400 hover:text-primary-400 transition"
             >
               Cookie Policy
-            </a>
+            </Link>
           </div>
         </div>
       </div>
