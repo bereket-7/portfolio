@@ -9,31 +9,73 @@ function ProjectsSection() {
       id: 1,
       title: "E-commerce Platform",
       description:
-        "A full-featured online store with product management, cart functionality, and payment processing.",
-      image:
-        "https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&q=75&fit=crop&w=600",
+        "A full-featured online shopping platform with payment integration, user authentication, and admin dashboard.",
+      image: "/assets/images/fenan_dashboard.png",
       category: "web",
-      technologies: ["React", "Node.js", "MongoDB"],
+      technologies: ["React", "Node.js", "MongoDB", "Express", "Stripe API"],
+      demoLink: "https://example.com/demo",
+      codeLink: "https://github.com",
+      featured: true,
     },
     {
       id: 2,
-      title: "Task Management App",
+      title: "Online Art Gallery",
       description:
-        "A collaborative task tracking application with real-time updates and progress visualization.",
-      image:
-        "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&q=75&fit=crop&w=600",
-      category: "web",
-      technologies: ["Vue.js", "Firebase", "Tailwind CSS"],
+        "Art gallery application for display sell and manage artworks.",
+      image: "/assets/images/telsem_homepage.png",
+      category: "app",
+      technologies: ["Vue.js", "Spring boot", "PostgreSql", "Bootstrap"],
+      demoLink: "https://github.com/bereket-7/online-art-gallery-springboot",
+      codeLink: "https://github.com/bereket-7/online-art-gallery-springboot",
+      featured: true,
     },
     {
       id: 3,
-      title: "Finance Dashboard",
+      title: "Mall Management System",
       description:
-        "Interactive financial analytics dashboard with data visualization and reporting features.",
-      image:
-        "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&q=75&fit=crop&w=600",
+        "Interactive weather forecasting application with location detection and historical data visualization.",
+      image: "/assets/images/century.png",
       category: "web",
-      technologies: ["React", "D3.js", "Node.js"],
+      technologies: ["Laravel", "Vuejs", "Chart.js", "Tailwind"],
+      demoLink: "https://century.melfantech.com/login",
+      codeLink: "https://github.com",
+      featured: true,
+    },
+    {
+      id: 4,
+      title: "Payment Method SDK",
+      description:
+        "Data visualization dashboard for social media metrics and engagement analysis.",
+      image: "/assets/images/sdk3.jpg",
+      category: "data",
+      technologies: ["Python", "Java", "GO", "Django"],
+      demoLink: "https://example.com/demo",
+      codeLink: "https://github.com",
+      featured: true,
+    },
+    {
+      id: 5,
+      title: "Training Institute Website",
+      description:
+        "Reservation management system for restaurants with online booking and table management.",
+      image: "/assets/images/prima_categories.png",
+      category: "web",
+      technologies: ["Angular", "Node.js", "PostgreSQL", "Twilio API"],
+      demoLink: "https://example.com/demo",
+      codeLink: "https://github.com",
+      featured: true,
+    },
+    {
+      id: 6,
+      title: "Telegram Bot",
+      description:
+        "Custom video streaming service with user accounts, playlists, and content management.",
+      image: "/assets/images/telegram-bot.webp",
+      category: "app",
+      technologies: ["Node.js", "Python"],
+      demoLink: "https://example.com/demo",
+      codeLink: "https://github.com",
+      featured: true,
     },
   ];
 

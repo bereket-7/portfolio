@@ -34,7 +34,7 @@ function AboutSection() {
             >
               <div className="w-full aspect-w-4 aspect-h-5">
                 <img
-                  src="/public/assets/images/side_pic.png"
+                  src="/assets/images/side_pic.png"
                   alt="Profile"
                   className="w-full h-full object-cover"
                 />

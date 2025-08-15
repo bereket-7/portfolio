@@ -96,29 +96,6 @@ function SkillsSection() {
       </div>
 
       {/* Additional Tech Stack Icons */}
-      {/* <div className="mt-16">
-        <h3 className="text-xl font-semibold text-secondary-900 mb-8 text-center">
-          Technologies I Work With
-        </h3>
-
-        <div className="flex flex-wrap justify-center gap-8"> */}
-      {/* These would typically be real SVG icons or images for tech stack */}
-      {/* {Array.from({ length: 10 }).map((_, index) => (
-            <motion.div
-              key={index}
-              initial={{ opacity: 0, scale: 0.8 }}
-              whileInView={{ opacity: 1, scale: 1 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.3, delay: index * 0.05 }}
-              whileHover={{ scale: 1.1 }}
-              className="w-16 h-16 flex items-center justify-center bg-white rounded-lg shadow-md"
-            >
-              <div className="w-10 h-10 rounded-full bg-gradient-to-br from-primary-600 to-primary-400"></div>
-            </motion.div>
-          ))}
-        </div>
-      </div> */}
-
       <div className="mt-16">
         <h3 className="text-xl font-semibold text-secondary-900 mb-8 text-center">
           Technologies I Work With

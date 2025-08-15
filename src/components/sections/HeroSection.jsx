@@ -126,7 +126,7 @@ function HeroSection() {
           >
             <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white/30 shadow-xl">
               <img
-                src="/public/assets/images/profile.png"
+                src="/assets/images/profile.png"
                 alt="Profile"
                 className="w-full h-full object-cover"
               />

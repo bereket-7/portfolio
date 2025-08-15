@@ -162,15 +162,14 @@ function Header() {
           <div className="hidden md:block">
             <a
               href="/resume.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
+              download="Bereket-CV.pdf"
               className={`px-5 py-2 rounded-md font-medium ${
                 isScrolled || !isHomePage
                   ? "bg-primary-600 text-white hover:bg-primary-700"
                   : "bg-white text-primary-600 hover:bg-opacity-90"
               } transition`}
             >
-              Resume
+              Download CV
             </a>
           </div>
 
@@ -320,11 +319,14 @@ function Header() {
           )}
           <a
             href="/resume.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="px-5 py-2 rounded-md bg-primary-600 text-white font-medium hover:bg-primary-700 transition text-center"
+            download="Bereket-CV.pdf"
+            className={`px-5 py-2 rounded-md font-medium ${
+              isScrolled || !isHomePage
+                ? "bg-primary-600 text-white hover:bg-primary-700"
+                : "bg-white text-primary-600 hover:bg-opacity-90"
+            } transition`}
           >
-            Resume
+            Download CV
           </a>
         </nav>
       </div>

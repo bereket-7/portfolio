@@ -34,7 +34,7 @@ function About() {
     },
     {
       company: "Prima Institute",
-      position: "Web Development Lecturer",
+      position: "Web Development Instructor",
       period: "2024 - 2025",
       description:
         "Worked on frontend and backend features for an e-commerce platform. Collaborated with designers and product managers to implement new features.",
@@ -165,7 +165,7 @@ function About() {
                 <div className="aspect-w-1 aspect-h-1 mb-6">
                   <div className="w-full h-full rounded-full overflow-hidden border-4 border-primary-100">
                     <img
-                      src="/public/assets/images/profile.png"
+                      src="/assets/images/profile.png"
                       alt="Profile"
                       className="w-full h-full object-cover"
                     />
