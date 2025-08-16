@@ -30,6 +30,30 @@ function ProjectsSection() {
       featured: true,
     },
     {
+      id: 3,
+      title: "Mall Management System",
+      description:
+        "Interactive weather forecasting application with location detection and historical data visualization.",
+      image: "/assets/images/century.png",
+      category: "web",
+      technologies: ["Laravel", "Vuejs", "Chart.js", "Tailwind"],
+      demoLink: "https://century.melfantech.com/login",
+      codeLink: "https://github.com",
+      featured: true,
+    },
+    {
+      id: 4,
+      title: "Payment Method SDK",
+      description:
+        "Data visualization dashboard for social media metrics and engagement analysis.",
+      image: "/assets/images/sdk3.jpg",
+      category: "data",
+      technologies: ["Python", "Java", "GO", "Django"],
+      demoLink: "https://example.com/demo",
+      codeLink: "https://github.com",
+      featured: true,
+    },
+    {
       id: 5,
       title: "Training Institute Website",
       description:
@@ -37,6 +61,18 @@ function ProjectsSection() {
       image: "/assets/images/prima_categories.png",
       category: "web",
       technologies: ["Angular", "Node.js", "PostgreSQL", "Twilio API"],
+      demoLink: "https://example.com/demo",
+      codeLink: "https://github.com",
+      featured: true,
+    },
+    {
+      id: 6,
+      title: "Telegram Bot",
+      description:
+        "Custom video streaming service with user accounts, playlists, and content management.",
+      image: "/assets/images/telegram-bot.webp",
+      category: "app",
+      technologies: ["Node.js", "Python"],
       demoLink: "https://example.com/demo",
       codeLink: "https://github.com",
       featured: true,

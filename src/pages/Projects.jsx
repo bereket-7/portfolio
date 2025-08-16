@@ -70,18 +70,6 @@ function Projects() {
     },
     {
       id: 6,
-      title: "Stock Portfolio Tracker",
-      description:
-        "Financial application for monitoring stock investments, performance, and market trends.",
-      image: "/assets/images/fenan_dashboard.png",
-      category: "data",
-      technologies: ["React", "Redux", "Express", "Alpha Vantage API"],
-      demoLink: "https://example.com/demo",
-      codeLink: "https://github.com",
-      featured: false,
-    },
-    {
-      id: 7,
       title: "Telegram Bot",
       description:
         "Custom video streaming service with user accounts, playlists, and content management.",
